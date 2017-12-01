@@ -1,1 +1,1 @@
-This projects has comments haphazardly placed for my notes since I built following a udemy course. It has long and descriptive comments and I was not trying to make it pretty. I just wanted it well documented so I would have a good guide to look back on. 
+This projects has alot of comments for my notes since I built following a udemy course. It has long and descriptive comments and I was not trying to make it pretty. I just wanted it well documented so I would have a good guide to look back on. 
