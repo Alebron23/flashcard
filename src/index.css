@@ -1,0 +1,48 @@
+body {
+    padding: 5%;
+    text-align: center;
+}
+
+.link-home {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.card {
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Makes the card display side by side not on top of eachother */
+.card-prompt {
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+}
+
+.card-answer {
+    display: inline-block;
+    text-align: right;
+    width: 50%;
+}
+
+.text-hidden {
+    visibility: hidden;
+}
+
+.text-revealed {
+    animation-name: fade-in; 
+    animation-duration: 1s;
+    visibility: visible;
+}
+
+/* We create animations using the @keyframes keyword  */
+@keyframes fade-in {
+    from { opacity: 0}
+    to { opacity: 100}
+}
